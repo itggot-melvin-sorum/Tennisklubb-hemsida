@@ -1,0 +1,821 @@
+@media only screen and (max-device-width: 360px) {
+
+body{
+        background: url("../img/tennis-ball-mobile.jpg") no-repeat; 
+        background-size:cover ;
+        padding: 0;
+        margin: 0;
+    }
+
+.rubrik {
+        font-family: 'Merriweather', serif;
+        font-size: 3.5em;
+        color: white;
+    }
+
+.rubrik2 {
+        font-family: 'Merriweather', serif;
+        font-size: 3.5em;
+        
+    }
+
+header {
+    
+    margin-left: 75px;
+
+}
+
+.container1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.container2 {
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    z-index: 100;
+    width:100%;
+    position: fixed;
+    
+}
+
+.menu_toggle {
+    display: block;
+
+}
+
+.navigation {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    position: fixed;
+}
+
+.navigation2 {
+    display: none;
+}
+
+
+.hem:hover {
+    background-color: cornflowerblue;
+}
+
+.hem2:hover {
+    background-color: cornflowerblue;
+}
+
+.nav_text:hover {
+    color: white;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    background-color: #96c0e3;
+    padding: 10px;
+    height: auto;
+    display: none;
+    animation-name: dropHeader;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-out;
+    animation-duration: 0.1s;
+    height: 10000px;
+    
+    
+}
+
+@keyframes dropHeader {
+      0% {
+        transform: translateX(-100%);
+      }
+      100% {
+        transform: translateX(0);
+      }
+    }
+
+
+
+.hem {
+    border-bottom: solid 4px #09395e;
+    text-align: center;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    
+}
+
+
+.hem2 {
+    
+    border-top :solid 4px #09395e;
+    border-bottom: solid 4px #09395e;
+    text-align: center;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.hem3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin:25px;
+}
+
+
+.nav_text {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 3.5em;
+    font-weight: bold;
+}
+
+.container3 {
+    display: flex;
+    flex-direction: column;
+    background-color: #96c0e3;
+    justify-content: center;
+    align-items: center;
+    width: 900px;
+    margin-top:175px;
+
+}
+
+.container4 {
+    display: flex;
+    flex-direction: row;
+    width: 790px;
+
+
+}
+
+
+.box1 {
+    border-radius: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.bild2 {
+    padding: 20px;
+
+}
+
+.box2 {
+    background-color: white;
+    border-radius: 20px;
+    width: 50%;
+    margin-right: 25px;
+    padding: 20px;
+    
+    
+}
+
+.box3 {
+    background-color: white;
+    border-radius: 20px;
+    width: 50%;
+    margin-left: 25px;
+    padding: 20px;
+}
+
+.brödtext{
+    font-size: 1.5em;
+    font-family: 'Roboto', sans-serif;
+    color: rgba(0, 0, 0, 0.54);
+}
+
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    color: rgba(9, 57, 94, 0.87);
+    font-size: 2em;
+}
+
+.box4 {
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+    padding: 20px;
+    width: 760px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 300px;
+}
+
+.brödtext2 {
+    font-size: 2em;
+    font-family: 'Roboto', sans-serif;
+    color: rgba(0, 0, 0, 0.54);
+}
+
+footer {
+    background-color: #96c0e3;
+    width: 100%;
+    margin-top:50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.bild3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.text1 {
+    text-align: center;
+}
+
+.text_och_bilder {
+    border-radius: 20px;
+    background-color: white;
+    padding: 20px;
+    margin:50px;
+    text-align: left;
+}
+
+
+.ishallen {
+    font-family: 'Roboto', sans-serif;
+    color: rgba(9, 57, 94, 0.87);
+    margin: 25px;
+}
+
+.bildrutor {
+    margin:10px;
+}
+
+.text2 {
+    margin: 25px;
+}
+
+.text3{
+    border-radius: 20px;
+    background-color: white;
+    padding: 20px;
+    margin:50px;
+    text-align: left;
+    
+}
+
+.text_footer {
+    
+    font-family: 'Roboto', sans-serif; 
+}
+
+
+.länk {
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+a:hover { 
+    text-decoration: underline;
+}
+
+.massatext {
+    margin: 25px;
+}
+
+.viktig_text {
+    font-size: 1,5em;
+    font-family: 'Roboto', sans-serif;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.lista {
+    display: flex;
+    flex-direction: column;
+}
+
+ table, td, th   {
+    border: 1px solid gray;
+    font-family: 'Roboto', sans-serif;
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 1.5em;
+    text-align: left;
+}
+
+
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+
+.första_ruta {
+    background-color: #96c0e3;
+}
+
+.lista1 {
+    margin: 25px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.lista2 {
+    margin: 25px;
+    margin-bottom: 50px;
+}
+
+.om_tennishallen {
+    font-family: 'Roboto', sans-serif;
+    color: rgba(9, 57, 94, 0.87);
+    font-size: 3.5em;
+}
+
+.tennisskolan {
+    margin: 25px;
+    font-family: 'Roboto', sans-serif;
+    color: rgba(9, 57, 94, 0.87);
+    font-size: 3.5em;
+}
+
+.text4 {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+}
+
+.bold {
+    margin: 25px;
+    font-family: 'Roboto', sans-serif;
+    color: rgba(9, 57, 94, 0.87);
+    
+}
+
+.footer_text {
+    font-family: 'Roboto', sans-serif;
+}
+
+.bold2 {
+    font-family: 'Roboto', sans-serif;
+    color: rgba(9, 57, 94, 0.87);
+}
+
+.bilder2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.kontakta_oss {
+    font-family: 'Roboto', sans-serif;
+    color: rgba(9, 57, 94, 0.87);
+    font-size: 3.5em;
+}
+
+.bild1 {
+    margin: 25px;
+}
+
+.bild4 {
+    margin:25px;
+}
+
+.text5 {
+    margin:25px;
+}
+
+.bild5 {
+    margin: 25px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-device-width: 361px){
+    body{
+        background: url("../img/tennis-ball-mobile.jpg") no-repeat; 
+        background-size:cover ;
+        padding: 0;
+        margin: 0;
+    }
+
+.rubrik {
+        font-family: 'Merriweather', serif;
+        font-size: 3.5em;
+        color: white;
+    }
+
+.rubrik2 {
+        font-family: 'Merriweather', serif;
+        font-size: 3.5em;
+        color: white;
+    }
+
+.container1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.bild1 {
+    display: none;
+}
+
+
+.container2 {
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+    width:100%;
+    text-align: center;
+}
+
+.menu_toggle {
+    display: block;
+
+}
+
+.navigation {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    display: none;
+}
+
+
+
+.hem:hover {
+    background-color: cornflowerblue;
+}
+
+.hem2:hover {
+    background-color: cornflowerblue;
+}
+
+.nav_text:hover {
+    color: white;
+}
+
+
+
+@keyframes dropHeader {
+      0% {
+        transform: translateX(-100%);
+      }
+      100% {
+        transform: translateX(0);
+      }
+    }
+
+
+.container4 {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.container3 {
+    display: flex;
+    flex-direction: column;
+    background-color: #96c0e3;
+    justify-content: center;
+    align-items: center;
+    margin-top:100px;
+    width: 80%;
+}
+
+.container6 {
+    width: 100%;
+    padding: 25px;
+}
+
+
+.box1 {
+    border-radius: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+}
+
+.bild2 {
+    padding: 20px;
+
+}
+
+.box2 {
+    background-color: white;
+    border-radius: 20px;
+    width: 50%;
+    margin-right: 12.5px;
+    padding: 20px;
+    margin-left:25px;
+    
+}
+
+.box3 {
+    background-color: white;
+    border-radius: 20px;
+    width: 50%;
+    margin-left: 12.5px;
+    padding: 20px;
+    margin-right:25px;
+}
+
+.brödtext{
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+    color: rgba(0, 0, 0, 0.54);
+}
+
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    color: rgba(9, 57, 94, 0.87);
+    font-size: 1em;
+}
+
+.box4 {
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+    padding: 20px;
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.brödtext2 {
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+    color: rgba(0, 0, 0, 0.54);
+}
+
+footer {
+    background-color: #96c0e3;
+    width: 100%;
+    margin-top:50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.bild3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.text1 {
+    text-align: center;
+}
+
+.text_och_bilder {
+    border-radius: 20px;
+    background-color: white;
+    padding: 20px;
+    margin:25px;
+    text-align: left;
+    width: 90%;
+}
+
+.ishallen {
+    font-family: 'Roboto', sans-serif;
+    color: rgba(9, 57, 94, 0.87);
+    margin: 25px;
+}
+
+.bildrutor {
+    margin:10px;
+}
+
+.text2 {
+    margin: 25px;
+}
+
+.text3{
+    border-radius: 20px;
+    background-color: white;
+    padding: 20px;
+    margin:25px;
+    text-align: left;
+    
+}
+
+.text_footer {
+    
+    font-family: 'Roboto', sans-serif; 
+}
+
+
+.länk {
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+a:hover { 
+    text-decoration: underline;
+}
+
+.massatext {
+    margin: 25px;
+}
+
+.viktig_text {
+    font-size: 1,5em;
+    font-family: 'Roboto', sans-serif;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.listor {
+    display: flex;
+    flex-direction: row;
+}
+
+ table, td, th   {
+    border: 1px solid gray;
+    font-family: 'Roboto', sans-serif;
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 1em;
+    text-align: left;
+    white-space: nowrap;
+}
+
+
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+}
+
+
+.första_ruta {
+    background-color: #96c0e3;
+}
+
+.lista1 {
+    margin: 25px;
+    
+}
+
+.lista2 {
+    margin: 25px;
+
+}
+
+.om_tennishallen {
+    font-family: 'Roboto', sans-serif;
+    color: rgba(9, 57, 94, 0.87);
+    font-size: 2em;
+}
+
+.tennisskolan {
+    margin: 25px;
+    font-family: 'Roboto', sans-serif;
+    color: rgba(9, 57, 94, 0.87);
+    font-size: 2em;
+}
+
+.text4 {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+}
+
+.bold {
+    margin: 25px;
+    font-family: 'Roboto', sans-serif;
+    color: rgba(9, 57, 94, 0.87);
+    
+}
+
+.footer_text {
+    font-family: 'Roboto', sans-serif;
+}
+
+.bold2 {
+    font-family: 'Roboto', sans-serif;
+    color: rgba(9, 57, 94, 0.87);
+}
+
+.bilder2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.kontakta_oss {
+    font-family: 'Roboto', sans-serif;
+    color: rgba(9, 57, 94, 0.87);
+    font-size: 2em;
+}
+
+.bild5 {
+
+    margin: 25px;
+}
+
+.bild4 {
+    margin:25px;
+}
+
+.text5 {
+    margin:25px;
+}
+
+
+nav {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 10vh;
+    background-color: #96c0e3;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.navigation2 {
+    display: flex;
+    flex-direction: row;
+    width: 100%; 
+}
+
+
+.hem {
+    margin-right: 25px;
+    margin-left: 25px ;
+    height: 80%;
+    border-left: 2px solid #09395e;
+    border-right: 2px solid #09395e;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hem2 {
+    margin-right: 25px;
+    margin-left: -25px;
+    height: 80%;
+    border-right: 2px solid #09395e;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.nav_text {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 30px;
+}
+
+.tennisboll {
+    width: 100%;
+}
+
+}
